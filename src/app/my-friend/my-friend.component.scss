@@ -9,9 +9,18 @@ a.st-active {
   background-color: silver;
 }
 
-.header-bar,
-h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 4px;
+}
+
+.my-friend {
+  margin-right: 100px;
+  padding: 50px;
 }
