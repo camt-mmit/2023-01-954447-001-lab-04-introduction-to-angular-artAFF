@@ -8,4 +8,11 @@ import { CommonModule } from '@angular/common';
   templateUrl: './status-web.component.html',
   styleUrls: ['./status-web.component.scss'],
 })
-export class StatusWebComponent {}
+export class StatusWebComponent {
+  currentTime = new Date();
+  userAgent = window.navigator.userAgent;
+  langugages = navigator.languages;
+  cookied = navigator.languages;
+  processors = navigator.hardwareConcurrency;
+  touchPoint = navigator.maxTouchPoints;
+}
