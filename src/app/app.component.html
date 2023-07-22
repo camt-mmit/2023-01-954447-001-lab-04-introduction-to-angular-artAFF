@@ -2,12 +2,19 @@
   <h1>{{ title }}</h1>
   <div class="header-bar">
     <nav>
-      <a routerLink="./hello-world" routerLinkActive="st-active">Hello Word</a>
-      <a routerLink="./my-profile" routerLinkActive="st-active">Profile</a>
-      <a routerLink="./my-friend" routerLinkActive="st-active">Friend</a>
-      <a routerLink="./status-web" routerLinkActive="st-active">Status</a>
+      <a routerLink="./hello-world" routerLinkActive="st-active"
+        ><i class="material-symbols-outlined"> language </i>Hello World</a
+      >
+      <a routerLink="./my-profile" routerLinkActive="st-active"
+        ><i class="material-symbols-outlined"> person </i>Profile</a
+      >
+      <a routerLink="./my-friend" routerLinkActive="st-active">
+        <i class="material-symbols-outlined">group</i> Friend</a
+      >
+      <a routerLink="./status-web" routerLinkActive="st-active"
+        ><i class="material-symbols-outlined"> dns </i>Status</a
+      >
     </nav>
   </div>
 </header>
-
 <router-outlet></router-outlet>
